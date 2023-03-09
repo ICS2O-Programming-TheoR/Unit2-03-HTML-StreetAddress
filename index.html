@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Whats your address? with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Theo Rafuse">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>What's your address? With JS</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>What's your Address?</h1>
+    <p>
+      <h3>Please enter the following:</h3>
+      <form action="javascript:enterClicked()">
+        <label for="sname">Street name</label>
+        <input type="text" id="street-name" placeholder="Street name"><br><br>
+        <label for="number">Street number</label>
+        <input type="number" id="number-entered" placeholder="Street number"><br><br>
+        <input type="submit" value="Enter">
+      </form>
+    </p>
+		<!-- Create a space where the user information will be displayed -->
+    <div id="user-info">
+      <p></p>
+    </div>
+  </body>
+</html>
